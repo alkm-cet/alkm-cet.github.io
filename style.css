@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    color: #3d3d3d;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+}
+
+/* --------------------------- TOP BODY ---------------------------- */
+
+#top-body {
+    display: flex;
+    width: 60%;
+    max-height: auto;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin: 100px auto;
+}
+
+@media (max-width: 748px) {
+
+    #top-body {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        align-items: center
+    }
+
+    ;
+
+}
+
+#top-body-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+@media (max-width: 748px) {
+    #top-body-left {
+        width: 100%;
+        align-items: center
+    }
+}
+
+#top-body-left-container {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 1px solid black; */
+}
+
+@media (max-width: 748px) {
+    #top-body-left-container {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+#Scrolldown {
+    display: flex;
+    margin-top: 100px;
+}
+
+@media (max-width: 748px) {
+    #Scrolldown {
+        margin-top: 50px;
+    }
+}
+
+#summary {
+    width: 60%;
+    /* border: 1px solid black; */
+}
+
+#top-body-right {
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 748px) {
+    #top-body-right {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+#img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    border: 5px solid white;
+    filter: grayscale(100%);
+    border-radius: 50%;
+    object-fit: contain;
+    margin: 0 0 100px 0;
+}
+
+@media (max-width: 748px) {
+    #img1 {
+        max-width: 300px;
+        max-height: 300px;
+        margin-top: 50px;
+    }
+}
+
+/* ---------------------------- ABOUT ------------------------------- */
+.title {
+    margin: 50px auto;
+    text-align: center;
+}
+
+@media (max-width: 748px) {
+    #aboutmetitle {
+        margin: -100px 0 0 0;
+    }
+}
+
+#about-container {
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    width: 60%;
+    min-height: 800px;
+    gap: 20px;
+    /* border: 1px solid black; */
+}
+
+@media (max-width: 748px) {
+    #about-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+    }
+}
+
+#about-left {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+@media (max-width: 748px) {
+    #about-left {
+        width: 80%;
+    }
+}
+
+#about-left-img {
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(90%);
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+
+#about-right {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+@media (max-width: 748px) {
+    #about-right {
+        width: 80%;
+        align-items: center;
+    }
+}
+
+#aboutmecontext {
+    width: 80%;
+}
+
+.btn-primary {
+    display: flex;
+    gap: 10px;
+}
+
+/* ----------------------- SKILLS ------------------------------- */
+
+#skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    min-height: 600px;
+    width: 40%;
+    /* border: 1px solid black; */
+    gap: 20px;
+}
+
+@media (max-width: 748px){
+    #skills-container{
+        width: 80%;
+        margin:auto;
+        min-height: 690px;
+    }
+}
