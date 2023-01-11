@@ -312,7 +312,9 @@ body {
 }
 
 .card-img-top {
-    object-fit: contain;
+    width: 100%;
+    min-height: 290px;
+     object-fit: contain; 
 }
 
 @media (max-width: 900px) {
