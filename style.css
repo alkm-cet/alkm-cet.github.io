@@ -275,7 +275,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    height: 600px;
+    height: auto;
     max-height: 800px;
     width: 40%;
     /* border: 1px solid black; */
@@ -285,7 +285,7 @@ body {
 @media (min-width: 900px) {
     #skills-container {
         display: none;
-        width: 80%;
+        width: 90%;
         margin: auto;
         min-height: 690px;
     }
